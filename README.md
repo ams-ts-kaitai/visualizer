@@ -2,6 +2,8 @@
 
 This is a simple visualizer for [Kaitai Struct](https://github.com/kaitai-io/kaitai_struct) project.
 
+![screenshot](screenshot.png)
+
 Kaitai Struct is a declarative language used for describe various
 binary data structures, laid out in files or in memory: i.e. binary
 file formats, network stream packet formats, etc.
@@ -40,11 +42,15 @@ gem install kaitai-struct-visualizer
 If you're interested in developing the visualizer itself, you can check
 out source code in repository:
 
-    git clone https://github.com/kaitai-io/kaitai_struct_visualizer
+```shell
+git clone https://github.com/kaitai-io/kaitai_struct_visualizer
+```
 
 ## Usage
 
-`ksv <binary-file> <ksy-file>...|<rb-file>`
+```shell
+ksv <binary-file> <ksy-file>... | <rb-file>
+```
 
 ## Licensing
 
@@ -65,5 +71,5 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 Note that it applies only to compiler itself, not `.ksy` input files
 that one supplies in normal process of compilation, nor to compiler's
-output files — that consitutes normal usage process and you obviously
+output files — that constitutes normal usage process and you obviously
 keep copyright to both.
